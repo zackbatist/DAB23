@@ -1,8 +1,8 @@
 ---
-title: Bounding the commons ...
+title: XXXX
 desc: ''
 author: Zack Batist
-date: 'Monday November 21, 2022'
+date: 'Wednesday November 23, 2022'
 bibliography:
   - /Users/zackbatist/Dropbox/zotero/zack.bib
 csl:
@@ -11,10 +11,7 @@ geometry: margin=1in
 fontsize: 12pt
 header-includes: >
   \usepackage{setspace}
-  \doublespacing
-  \setlength{\lineskip}{3.5pt}
-  \setlength{\lineskiplimit}{2pt}
-  \setlength{\parindent}{20pt}
+  \singlespacing
 
 ---
 
