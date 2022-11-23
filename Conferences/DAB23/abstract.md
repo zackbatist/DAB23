@@ -24,6 +24,11 @@ This paper examines this issue by highlighting factors that contribute to data s
 
 My findings highlight the different values ascribed to formal records and eliciations of situated experiences; in particular, it is noteworthy that the latter make up an largely separate, stagnant, and lasting data stream, as the former move on to be processed, transformed and shared across multiple research contexts. The technological affordances and limitations, as well as the social and pragmatic values and priorities therefore split archaeological modes of understanding into a transmissable, applicable, yet lossy data package, and a more closely-held awareness of records' constructed nature that is not only difficult to document and share but also threatens to undermine the value held by the former and more formal means of representation.
 
+
+My findings hightlight that situated experiences, though crucial for obtaining true/critical understanding of formal records, form their own, less mobile sets of records, which due to both social and technological factors and value regimes, may be less amenable to widely distribution at scale.
+
+I also identify aspects of common social structures, such as participation in relatively independent archaeological projects (which are venues for the reproduction of collaborative commitments and community norms and expectations), as important factors to consider as we devise data governance strategies.
+
 This amounts to what @huggett2022, @lucas2019 and @wylie2017 characterized as a sense of "epistemic anxiety", whereby archaeologists come up against a discrepancy between their understanding of data's limitations and the restricted sets of possibilities afforded by the social and technological infrastructures we inhabit. I argue that the solutions lie in recognizing and challenging the taken for granted collaborative commitments that structure how we work, and which are reinforced by technological solutions.
 
 
