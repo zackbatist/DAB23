@@ -29,6 +29,14 @@ This involves recognizing that communities have boundaries, that trust and inclu
 I frame data sharing, whether it occurs between close colleagues or as mediated by open data platforms among strangers, as comprising a series of collaborative commitments. Many of these commitments are being stretched and transformed through enactment of open archaeology.
 
 
+## Comments on the abstract from Camille
+Looks good! How long is it supposed to be? I ask because I wonder if you can make the first paragraph more concise (to further highlight your paper). I might also suggest adding a bit more context or details re: your findings? Like can you say it's part of your dissertation research? I feel that without those details it's kind of like, who is this guy and why is he doing this? But Im not sure! I also think it's good as-is
+
+- make the first paragraph more concise
+- add more context or details re: your findings
+- say it's part of your dissertation research
+- without those details it's kind of like, who is this guy and why is he doing this?
+
 
 ## Practical notes
 - Digital Archaeology Bern
