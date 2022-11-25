@@ -38,6 +38,11 @@ Looks good! How long is it supposed to be? I ask because I wonder if you can mak
 - without those details it's kind of like, who is this guy and why is he doing this?
 
 
+## Maybe useful for CAA paper
+
+I also consider how projects' organizational structures and information systems direct the flow of archaeological labour and data derived thereof towards productive ends; data governance models, which include implicit professional expectations regarding who may access and benefit from the collectively-maintained pool of information generated through years of distributed labour, are significant factors that effect how collaboration occurs within and beyond a project's scope.
+
+
 ## Practical notes
 - Digital Archaeology Bern
 - February 1-3, 2023
