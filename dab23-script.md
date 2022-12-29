@@ -2,11 +2,23 @@
 
 Hi everyone, glad to be here.
 
-The paper I'm about to present draws from my dissertation, which ins't strictly about open science but is heavily inspired by challenges I faced while engaging with open research data as a digital archaeologist.
+The paper I'm about to present draws from my dissertation, which ins't strictly about open science but is heavily inspired by challenges that digital archaeologists commonly face while engaging with open research data.
 
-My work examines archaeological research practices, specifically collaborative aspects of data management practices. I look at archaeological research as an inherently collaborative endeavour, involving the participation of numerous people implementing various tools and methods, across different locales and time scales, to produce a collective data stream. This collective data stream partially manifested by a project database, but also typically includes other media including paper records, files stored on numerous usb thumb drives, trench reports, scrap notes, and stories about the history of work at a project. These media enable project participants to share their distributed experiences and engagements with archaeological materials with the rest of the team, and to be directed towards productive ends. My work therefore involves identifying how archaeologists working in different capacities create, use, and value all these forms of information, and how they contribute to and are shaped by archaeological data management practices and information infrastructures.
+All archaeological research practices are activities that occur within a social environment and are activities that involve working with data.
 
-So in another sense, my work examines the social and technical aspects of information infrastructures that direct archaeological knowledge towards productive ends. Here I'll document some aspects of data sharing practices that occur within projects and among close colleagues, and call attention to disjunctures between established norms and expectations on the one hand and new forms of collaborative commitments brought about by participating in systems designed to facilitate particular visions of open science.
+Archaeological research is inherently collaborative in that it involves the participation of numerous people implementing various tools and methods, across different locales and time scales, to produce a collective data stream.
+
+This collective data stream is partially manifested by a project database, but also typically includes other media including paper records, files stored on numerous usb thumb drives, trench reports, scrap notes, and stories about the history of work at a project.
+
+These media enable project participants to share their distributed experiences and engagements with archaeological materials with the rest of the team, and enable their collectve efforts to be directed towards productive ends.
+
+My work therefore involves identifying how archaeologists working in different capacities create, use, and value all these forms of information, and how they all contribute to and are shaped by archaeological data management practices and information infrastructures.
+
+So in another sense, my work examines the social and technical aspects of information infrastructures that direct archaeological knowledge towards productive ends.
+
+Here I'll document some aspects of data sharing practices that occur within projects and among close colleagues, and call attention to disjunctures between established norms and expectations on the one hand and new forms of collaborative commitments brought about by participating in systems designed to facilitate particular visions of open science.
+
+---
 
 But first a little bit about my methods and cases.
 
