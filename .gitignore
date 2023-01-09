@@ -63,6 +63,9 @@ Thumbs.db
 *.fdb_latexmk
 *.out
 *.xdv
+*.nav
+*.snm
+*.toc
 
 # Specific files #
 ##################
