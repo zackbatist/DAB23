@@ -5,75 +5,49 @@ modifier={by-sa},
 version={4.0},
 ]{doclicense}
 \setbeamersize{text margin left=5mm,text margin right=5mm} 
-\setbeameroption{show notes}
-\setbeamertemplate{note page}{%
-    % adds in bg color
-        \insertvrule{\paperheight}{note page.bg}%
-        \vskip-\paperheight%
-    % changes font color
-        \usebeamercolor[fg]{note page}%
-    % inserts note
-        \insertnote%
-}
-\AtBeginNote{\hspace*{-20pt}\addtolength\leftmargini{-20pt}}
-\AtEndNote{\addtolength\leftmargini{20pt}}
 \usetheme{metropolis}
+
+\setbeamercolor{block body}{bg=mDarkTeal!30}
+\setbeamercolor{block title}{bg=mDarkTeal,fg=black!2}
+
 \title{Documenting the collaborative commitments that support data sharing within archaeological project collectives}
-\date{\today}
 \author{Zachary Batist}
-\institute{Faculty of Information\\University of Toronto}
+\date{Digital Archaeology Bern 2023}
+\institute{Faculty of Information \\ University of Toronto}
 
 \begin{document}
-
 \begin{frame}
   \maketitle
-
-  \note[item]{Hi everyone, glad to be here.}
-  \note[item]{The paper I'm about to present draws from my dissertation, which ins't strictly about open science but is heavily inspired by challenges that digital archaeologists commonly face while engaging with open research data,}
-  \note[item]{namely the awkwardness of opening a spreadsheet and entering a world of tacit assumptions and experiences that differ from your own, and the actions taken to reconcile these disparities.}
-
-
 \end{frame}
-
 
 \begin{frame}{Objectives}
   \begin{enumerate}
-    \item Articulate the collaborative commitments and technological systems that mediate data sharing on a local, collegial level
-    \item Relate these accepted norms and expectations to the alternative sociotechnical arrangements that frame participation in open data infrastructures
-    
-    \note[item]{I consider uploading and downloading formally arranged information from a digital repository as just one form of data sharing among many other possibilities.}
-    \note[item]{Archaeologists share data all the time, following numerous protocols that don't necessarily involve making the records available 24/7 on the web.}
-    \note[item]{My work basically tries to articulate all the different kinds of data sharing that archaeologists do, while calling attention to the collaborative commitments that they entail and the role of mediating technologies in these interactions.}
-    % \note[item]{For instance, I examine how archaeologists within projects stake ownership over a dataset, which may be expressed in terms of the amount of recognized effort put into the construction of a dataset, associations with a tool used to produce it, one's status within the project hierarchy, or an explicit mandate provided by an authoritative figure or institution.}
-    \note[item]{I think that many of the problems that archaeological information infrastructures have to deal with relate to an inability to grapple with archaeologists' discomfort and apprehension regarding the expansion if their collaborative commitments into new dimensions for which we have not yet established social and professional norms.}
-    \note[item]{So I'm here to shed some light on some potential incongruities between how archaeologists tend to share data on a local and collegial scale, and the very different sociotechnical arrangements that tend to be imposed by open data infrastructures, at least under the paradigm we have opted to pursue.}
-
+    \item Articulate the collaborative commitments and technological systems that mediate data sharing within archaeological projects
+    \item Relate these accepted norms and expectations to the sociotechnical arrangements that frame participation in open data infrastructures
   \end{enumerate}
-  
 \end{frame}
 
 \begin{frame}{My Approach}
-
   \begin{itemize}
-    \item I examine archaeological research as cultural practice
-    \item Archaeology is an inherently collaborative and social enterprise
-    \item Archaeology necessarily relies on social and technological systems to mediate and encourage cooperative and productive behaviour
-    \item Open data infrastructures rearrange these sociotechnical systems in potentially drastic ways (which is not necessarily a good thing)
+    \item I examine archaeological research as social and cultural practice
+    \item Especially interested in:
+    \begin{itemize}
+      \item how objects gain meaning through collective action
+      \item the social and technological systems to mediate and encourage cooperative and productive behaviour
+      \item tensions that emerge through social and technological re-arrangements
+    \end{itemize}
   \end{itemize}
-
-  \note[item]{First a bit about my approach.}
-  \note[item]{I examine archaeological research as a cultural practice, as work that occurs within a social environment.}
-  \note[item]{I'm less interested in what archaeologists are looking at than how they do it, and crucially, how the meanings they ascertain about things are validated through participation within a collective enterprise.}
-  \note[item]{So I set out to observe and interview archaeologists as they work, and articulate the social and technological circumstances that underlie the formation of a communal data stream.}
 \end{frame}
   
 
   \begin{frame}{Data Collection and Analysis}
     \begin{columns}[T,onlytextwidth]
-
       \column{0.45\textwidth}
       \begin{itemize}
         \item Data collected over four years, from 2017 - 2020
+        \item Three cases
+        \item 90+ hours of work observed
+        \item 30+ interviews
         \item On site, museum, dig house, and office settings, both on and off season
         \item Abductive qualitative data analysis methods roughly based on grounded theory
       \end{itemize}
@@ -82,239 +56,86 @@ version={4.0},
     \centering
     \includegraphics[width=4cm,]{images/fig1.png}
   \end{columns}
-
-  \note[item]{I recorded over 90 hours of archaeologists doing their work, interviewed over 21 participants, and examined the documents that archaeologists produce and handle on a regular basis.}
-  \note[item]{I did this over several years, and three cases are represented in my work.}
-  \note[item]{Observations and interviews were held in settings where people were excavating, collecting samples, processing and identifying finds, working at their laptops, giving site tours, and holding casual conversations.}
-  \note[item]{All of the names presented here are pseudonyms, by the way.}
-  \note[item]{I then applied qualitative data analysis methods derived from grounded theory to sort through my vast dataset and articulate some trends and theories that underlie them, some of which are presented here.}
-
 \end{frame}
-
-% \begin{frame}{Archaeology is inherently collaborative}
-%   \begin{itemize}
-%     \item Work is distributed across members of project teams
-    % \item Activities are performed asynchronously and in tandem across time and place
-%     \item Projects draw from and extend upon prior and concurring work
-    % \item Professional standards and community expectations dictate how work should be performed and what derived outcomes should look like
-%   \end{itemize}
-% 
-% 
-  % \note[item]{I see archaeology as inherently collaborative, involving careful coordination of work across time, place, and social context.}
-  % \note[item]{Moreover, projects draw from and extend from prior and concurring work.}
-  % \note[item]{All of these interactions are governed by professional standards and community expectations.}
-  % \note[item]{For instance, you don't simply arrive at a site and ask to dig, just as you wouldn't suddenly dance naked in the street and expect others not to be concerned.}
-% 
-% \end{frame}
-% 
-% \begin{frame}{Archaeologists produce media to facilitate collaboration}
-%   \begin{itemize}
-%     \item Media are externalized representations of ideas or experiences
-    % \item Include both tangible and computationally useful records, and more malleable means of communication
-%   \end{itemize}
-%   
-%   \metroset{block=fill}
-%   \begin{columns}[T,onlytextwidth]
-%     \column{0.45\textwidth}
-%       \begin{block}{Formal Records}
-%         \begin{itemize}
-%           \item Recording sheets
-%           \item Spreadsheets
-%           \item Stratigraphic sequences
-%         \end{itemize}
-%       \end{block}
-% 
-%     \column{0.4\textwidth}
-%       \begin{block}{Informal Records}
-%         \begin{itemize}
-%           \item Email, phone calls
-%           \item Field manuals
-%           \item Stories
-%         \end{itemize}
-%       \end{block}
-%   \end{columns}
-% 
-%   \begin{itemize}
-    % \item All enable ideas and personal experiences to be shared, accumulated, and rendered useful
-    % \item Different kinds of records tend to be used and valued in different ways
-%   \end{itemize}
-%   
-  % \note[item]{As externalized representations of ideas or experiences, media play a particularly significant role in facilitating collaborative ties among archaeologists.}
-  % \note[item]{Media can include things like recording sheets, spreadsheets and trench reports, emails, field manuals, and stories.}
-  % \note[item]{All of these things enable ideas and personal experiences to be shared, accumulated, and rendered useful within a collective work environment.}
-  % \note[options]{Moreover, handling various kinds of media is circumscribed by social and professional norms.}
-  % \note[item]{For instance, excavators are encouraged to limit their personal voice when filling in recording sheets and trench reports, but may recall their personal experiences through stories and other media.}
-% 
-% \end{frame}
-
-% \section{Methods and Data}
-% 
-% \begin{frame}{Data Collection}
-  % \metroset{block=fill}
-  % \begin{columns}[T,onlytextwidth]
-    % \column{0.52\textwidth}
-    % \begin{block}{Observation}
-      % \begin{itemize}
-        % \item Video, audio, handwritten notes
-        % \item 90+ hours of work observed
-        % \item 150+ hours of recorded footage
-      % \end{itemize}
-    % \end{block}
-% 
-    % \begin{block}{Document Analysis}
-      % \begin{itemize}
-        % \item Recording sheets
-        % \item Photos
-        % \item Labels and tags
-        % \item Database entries
-        % \item Spreadsheets
-        % \item Trench reports ...
-      % \end{itemize}
-    % \end{block}
-% 
-    % \column{0.45\textwidth}
-% 
-    % \begin{block}{Retrospective Interviews}
-      % 31 interviews held with 21 distinct participants about:
-      % \begin{itemize}
-        % \item the project’s goals
-        % \item publication strategies
-        % \item collaboration
-        % \item teaching and learning ...
-      % \end{itemize}
-    % \end{block}
-% 
-    % \begin{block}{Contextual Interviews}
-      % Explanations and reflections about specific tasks as work proceeded
-    % \end{block}
-% 
-  % \end{columns}
-% \end{frame}
-% 
-% % \begin{frame}{Data Collection}
-  % % \begin{itemize}
-    % % \item Observational records (video, audio, handwritten notes)
-    % % \begin{itemize}
-      % % \item 90 + hours of work observed
-      % % \item 150 + hours of recorded footage
-    % % \end{itemize}
-    % % \item Episodic interviews
-    % % \begin{itemize}
-      % % \item Explanations, think-aloud, as work proceeded
-    % % \end{itemize}
-    % % \item Retrospective interviews
-    % % \begin{itemize}
-      % % \item Thoughts about the project’s goals, publication strategies,
-      % % \item Collaboration, teaching and learning, etc
-      % % \item 31 interviews held with 21 distinct participants
-    % % \end{itemize}
-    % % \item Document analysis
-    % % \begin{itemize}
-      % \item Forms, photos, labels, DB entries, spreadsheets, trench reports, % etc
-    % % \end{itemize}
-  % % \end{itemize}
-% % \end{frame}
-% 
-% 
-% \begin{frame}{Data Collection}
-  % \begin{columns}
-    % \column{0.55\textwidth}
-      % \begin{itemize}
-        % \item Data collected over four years, from 2017 - 2020
-        % \item Observations conducted on site, in museum, and in dig house settings
-        % \item Interviews held during summer fieldwork and during the off-season
-        % \item Abductive qualitative data analysis methods using MaxQDA
-        % \begin{itemize}
-          % \item Following Charmaz 2014, \textit{Constructing Grounded Theory}
-        % \end{itemize}
-        % \item Names of people and places are pseudonyms
-      % \end{itemize}
-% 
-      % \column{0.4\textwidth}
-      % \centering
-      % \includegraphics[width=2cm,]{Picture2.png}
-        % \includegraphics[width=5cm]{Picture1.png}
-% 
-% \end{columns}
-% \end{frame}
-
-
-% \begin{frame}{Cases}
-  % Case 1
-  % \begin{itemize}
-    % \item Longitudinal (2017-2019), carte blanche access to all their records
-    % \item Prehistoric site in southern Europe, follows fairly traditional methods and data management practices
-  % \end{itemize}
-% 
-  % Case 2
-  % \begin{itemize}
-    % \item Hellenistic site in southern Europe
-    % \item Very tech-savvy, early adopter of digital tools and methods
-    % \item Participation spanned one week towards the end of fieldwork in 2019
-  % \end{itemize}
-% 
-  % Case 3
-  % \begin{itemize}
-    % \item A data sharing consortium focused on a specific region
-    % \item Focused on technical and social challenges re: data sharing
-    % \item Entirely based on interviews and handwritten notes from 2019-2020
-  % \end{itemize}
-% \end{frame}
 
 \begin{frame}{Archaeological Projects}
+  \begin{itemize}
+    \item Projects define the scope of legitimate work
+    \item Legitimacy afforded based on:
+    \begin{enumerate}
+      \item warrant afforded by the broader research community
+      \item ability to assemble a project system comprising a network of collaborating individuals
+    \end{enumerate}
+  \end{itemize}
+
+\begin{block}{Basil, Project Director, Case 1}
+Well, when you make your application for an excavation \dots they gotta make sure it’s up to snuff, quality wise. They don’t want problems \dots because it’s not umm professional enough, or it’s asking an inappropriate question. And so, one of the things we’re required to do is list our personnel. So in listing our personnel \dots \textbf{you try to dovetail as best as possible, with like, these are our research questions, these are the methods we aim to employ to answer these research questions, and here are the specialists who are capable of wielding those techniques.}
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}{Divisions of Labour}
+      \centering
+      \includegraphics[width=5.5cm,]{images/fig8.png}
+
+    \includegraphics[width=5.5cm,]{images/fig14.png}
+
+
+\end{frame}
+
+\begin{frame}{Terriroriality}
+  \begin{block}{Lauren, Trench Supervisor, Case 1}
+  \dots I enjoy these interactions with people in my trench. \dots we are really close with our trenches, especially Theo and I, so we can talk about what’s happening in our trenches, correlate it, and ask each other for opinions. \dots Usually it’s like, umm, Theo sticking his out of his trench and is like, Lauren, do you have a moment? Or me saying, Theo, can you have a look at this? And then umm, we compare, usually we compare, like, our stratigraphy or we look at material, like getting each other’s opinion
+  \end{block}
   
+  \begin{block}{Basil, Project Director, Case 1}
+  Jolene’s been here from the get-go [so] she has sort of first dibs on what sort of material she wants to work on
+  \end{block}
 
-  \note[options]{The first thing I want to highlight is the role of professional boundaries in the creation and use of archaeological data.}
-  \note[options]{One kind of boundary that is particular important is the boundary around a project.}
-  \note[options]{A project is granted a license to exclusively examine an archaeological assemblage typically spatial bounded by what we call a site.}
-  \note[options]{Attached to the license is a lot of money, which can be leveraged to produce prestige and advance one's careers and the careers of friends and colleagues}
-  \note[options]{A project director who applied for the license and funding typically has universal control over how that funding is allocated, and is responsible for inviting others to participate in the project.}
-  \note[options]{In effect, he is therefore providing opportunities for people to have access to a scarce resource, namely archaeological finds, and to transform them into legitimate records about the past.}
-  \note[options]{These records, which are manifested as published articles, are the currency through which someone builds their career.}
-  \note[options]{Nice little racket, eh?}
-  \note[options]{Anyway, the control held by the director generally corresponds with the scope of the project as a whole.}
-  \note[options]{Just as with corporate structures, the domain of the firm is bounded by what is owned by the owners.}
-  \note[options]{The database is also controlled by the director, but we will get to that in a moment.}
-\end{frame}
+  \begin{block}{Rufus, Project Director, Case 2}
+  well the project directors, they devote their lives to these things. And in a way sure, I guess \dots they kinda get first dibs
+\end{block}
 
-\begin{frame}{Divisions of Labour (based on what they work with)}
-
-  \note[options]{Directors allocate responsibilities over certain material assemblages to specialists and supervisors.}
-  \note[options]{These delegated individuals take their experiences with the materials, transform them into written documents, and pass them along to the director in the form of a report.}
-  \note[options]{They may also share more granular, formally arranged information for tight integration into a centralized database, which can then be retrieved along other relevant data.}
-  \note[options]{In general, however, published articles tend to lack much of this potential for integration, with results being presented on a subdisciplinary basis in turn.}
-  \note[options]{That does not mean that there is no collaboration.}
-  \note[options]{I observed numerous excited conversations between geoarchaeological specialists of various sorts, who plan and strategize where to excavate and collect samples from in a proactive way.}
-  \note[options]{However, this does not translate to a publishable document.}
-  \note[options]{The division of labour that corresponds with material assemblages is only one axis through which labour is divided, and it is in fact an axis that is only useful for allocating who owns what assemblages and data.}
 
 \end{frame}
 
-\begin{frame}{Divisions of Labour (based on agency)}
-  \note[options]{This is more about one's ability to participate in a conversation and have the potential to influence the way others work.}
-  \note[options]{In other words, another division of labour is characterized by different kinds of agency.}
+\begin{frame}{Agency and Activity Systems: Excavation}
 
-  People in different roles hold different amount of creative agency
-  They also hold different capability to participate within broader discourse (matroshka doll)
-  The boundaries between human and tool agency get very blurred, as people are managed and leveraged to produce targeted outputs
+  \begin{block}{Ben, Trench Assistant, Case 1}
+    Like if I did something that Lauren didn’t like it’s different than when I did something [a different supervisor] didn’t like.
+  \end{block}
   
+  \begin{block}{Ben, Trench Assistant, Case 1}
+    I sort of questioned why we have to keep the sections, like in our trench, so like uniform. Like we can’t pick rocks out. Like if it’s sticking out we gotta keep it in there if it’s not-- The section is gonna have a rock sticking into the trench, but they don’t want a rock removed from the trench if it’s gonna create a hole in the section. So it’s just sticking into the trench, and that could be an important lithic, right? So I never understood that, but that’s how it’s done.
+  \end{block}
+
 \end{frame}
 
-\begin{frame}{Agency and activity systems}
-  \note[options]{Note that all of this is based in context.}
-  \note[options]{A director does not necessarily have creative agency in the experience of a trench. Instead, they hold supportive agency, providing the tools and resources necessary to facilitate good work performed by creative and automated actors. Once the information collected by the trench leaves that setting and enters the dig house or the database, it enters a different functional realm, no longer a product derived from intimate familiarity with a trench, and becoming a generic resource to be leveraged by a publishing member of the team who relies on analyst and computational work environment as supportive agents, who provides him with findings to be put in a narrative presented by the director.}
-  \note[options]{It is noteworthy that only the activity contexts where upper management wields creative agency hold the potential to garner some legitimately valuable outcome. Excavators produce records that are not useful in themselves. Even field journals, which are actually much richer and informative than other media produced elsewhere in any given project, are left out of the centralized database and generally ignored and not taken seriously (unless they were written by some long dead white man from the colonial era, such as Flinders Petrie and Arthur Evans).}
+\begin{frame}{Agency and Activity Systems: Reports}
+
+  \begin{block}{Rufus, Project Director, Case 2}
+    \dots our department of antiquities publications or whatever, as a trench supervisor student, I was never put on reports. I was never put on those publications. Once I became field director, which is obviously under co-director, I was. And I was given opportunities to take, to be a lead on these things. I understood that from their perspective that they are bringing over people like trench supervisors, bringing them over, paying their way, room and board, all that stuff, and they had a specific task to do. When they did that task, that information is then absorbed into the project. If they went above and beyond or wanted to take an active role in something, there was opportunities to do that.
+  \end{block}
+
 \end{frame}
 
-\begin{frame}{Snippets}
-  Quote from Case 1 about managing conflict, ensuring no one is stepping on each others' shoes
-  Quote from Case 3 about maintaining autonomy
-  Quote from Case 3 about the differences between projects
-  Quote from Case 2 about the director being the primary actor, and compare with other collaborative systems like film direction and corporate ownership whereby the scope of the company is dictated by what is and is not owned by the owners
-  
+\begin{frame}{Agency and Activity Systems: Syntheses}
+
+  \begin{block}{George, Project Director, Case 3}
+    \dots but I mean, \dots if you write a paper and you cite somebody and you, you know, you have it in parentheses in the text and in a bibliographic reference at the end, that doesn’t make them a collaborator, just because you cited them \dots But in the case of where you are constantly aggregating more and more and more data, I think it does become difficult, and somewhat, you know, there’s some doubt in my mind that we’re adequate– that were accurately and adequately tracking all of those sources.
+  \end{block}
+
 \end{frame}
 
-\begin{frame}{Information flows}
+\begin{frame}{The value of various representations}
+  \begin{itemize}
+    \item Main point
+    \item Examples (show field journals and recording sheets)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Information Systems / Flows}
   Projects are sociotechnical systems, assembled to produce a central record pertaining to a spatially or topically bounded material assemblage
   Projects try to impose a sense of order, to dictate the flow of information
   This is through organizational structures like dictating who responds to who, and through technical protocols
