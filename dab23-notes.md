@@ -58,3 +58,31 @@ I also consider how projects' organizational structures and information systems 
 - Abstracts must not exceed 500 words.
 - CFP deadline: November 27, 2022.
 - Send abstract, presentation type, title, author(s), author affiliations, and three keywords, as a single PDF file to dab@iaw.unibe.ch.
+
+## quick notes for potential edits, Jan 28
+replace section 5 on archaeological projects with something like "recognizing discursive warrants for research"
+
+make it more about defining that projects are assemblages of people, who come together based on converging interests, which ties into the next section on territoriality
+
+hint at the inseparability between data management and people management, with something like we need people to make this work, tools wont hold themselves, questions wont pose or answer themselves
+
+people work at archaeological projects for various reasons, but generally they are brought on based on the professional collaborative network of the project director (cite danica, anda, hanna, will, liz, dave, etc)
+
+nail down the main point immediately before or after agency and activity sustems 3, which draws their attention towards the implications for open science
+
+namely, highlight the fact that creative agency gradually dissolves as the network is extended in scope, which also involves the re-allocation of credit and ownership over data
+
+the solution that case 3 came up with is to halt dissemination beyond their little group, thus maintaining a greater degree of recognition and trust than would otherwise be the case if sharing with complete strangers
+
+we see this within projects too, as work is recognized within each scale, but not beyond that
+
+everyone need that recognition to motivate their efforts and to feel as if they themselves are contributing something, and not simply being used as throw away tools
+
+in other words, each scale is productive only because they establish a collaborative feeling, which involves establishing a close boundary around the community, which in turn corresponds with a set of goals or directives that bind all participants together
+
+there is no such question or goal driven collaboration when sharing data on the web with strangers
+
+the data are framed as a final publication, with no room for addition or improvement
+
+also corresponds with reusers need to understand context, in the form of what this data was for, who made it, how it was made, etc, essentially gaining more familiarity with the on the ground reality of how data were produced or integrated, which is usually info that is privy only to collaborators
+
