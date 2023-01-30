@@ -66,9 +66,9 @@ make it more about defining that projects are assemblages of people, who come to
 
 hint at the inseparability between data management and people management, with something like we need people to make this work, tools wont hold themselves, questions wont pose or answer themselves
 
-people work at archaeological projects for various reasons, but generally they are brought on based on the professional collaborative network of the project director (cite danica, anda, hanna, will, liz, dave, etc)
+people work at archaeological projects for various reasons, but generally they are brought on based on the professional collaborative network of the project director
 
-nail down the main point immediately before or after agency and activity sustems 3, which draws their attention towards the implications for open science
+nail down the main point immediately before or after agency and activity systems 3, which draws their attention towards the implications for open science
 
 namely, highlight the fact that creative agency gradually dissolves as the network is extended in scope, which also involves the re-allocation of credit and ownership over data
 
@@ -76,7 +76,7 @@ the solution that case 3 came up with is to halt dissemination beyond their litt
 
 we see this within projects too, as work is recognized within each scale, but not beyond that
 
-everyone need that recognition to motivate their efforts and to feel as if they themselves are contributing something, and not simply being used as throw away tools
+everyone need that recognition to motivate their efforts and to feel as if they themselves are contributing something, and not simply being used as throw away tools (see thorpe)
 
 in other words, each scale is productive only because they establish a collaborative feeling, which involves establishing a close boundary around the community, which in turn corresponds with a set of goals or directives that bind all participants together
 
